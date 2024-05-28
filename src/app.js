@@ -86,7 +86,7 @@ app.delete("/pessoas/:id",async (req,res)=>{
     }
 });
 
-    return app;
+    return app; 
 }
 
 const app = await startServer();
